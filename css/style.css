@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #03030a;
+    color: #8a93c9;
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+.frame {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Keep the 656x520 aspect ratio and scale up crisply to fill the window. */
+#game {
+    width: min(96vw, calc((100vh - 48px) * 1.26));
+    height: auto;
+    image-rendering: pixelated;
+    background: #000;
+    box-shadow: 0 0 40px rgba(80, 140, 255, 0.25);
+    border-radius: 4px;
+}
+
+.help {
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+}

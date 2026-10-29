@@ -1,0 +1,11 @@
+{
+  "name": "starfence",
+  "private": true,
+  "description": "Dev tooling only - the game itself needs no install.",
+  "scripts": {
+    "test": "node tests/smoke.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}

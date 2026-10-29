@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Starfence</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="frame">
+        <canvas id="game" width="656" height="520" aria-label="Starfence game"></canvas>
+        <p class="help">
+            Arrows / WASD move &middot; Enter start &middot; P pause &middot; M sound
+        </p>
+    </main>
+
+    <!-- Plain scripts (no modules) so the game works when index.html is opened straight from disk. -->
+    <script src="js/util.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/pictures.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/field.js"></script>
+    <script src="js/entities.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
